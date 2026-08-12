@@ -11,7 +11,7 @@ base {
 }
 
 repositories {
-	// 这里可以添加你需要的其他Maven仓库
+	// 如果需要添加其他Maven仓库，可以在这里补充
 }
 
 loom {
@@ -26,7 +26,7 @@ loom {
 }
 
 dependencies {
-	// 使用1.21.4版本的Minecraft，兼容性最好
+	// 使用 1.21.4 版本的 Minecraft
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
